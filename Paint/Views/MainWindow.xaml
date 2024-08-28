@@ -259,8 +259,7 @@
                         Click="pickedEarserBtnEvenListener"
                         Label="Eraser"
                         SmallImageSource="{Binding Path=eraseIcoPath}" />
-
-
+                   
                 </RibbonGroup>
                 <!--  Shape  group  -->
                 <RibbonGroup

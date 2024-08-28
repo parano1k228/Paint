@@ -15,7 +15,7 @@ namespace Hexagon
         public string ID => "Hexagon";
 
         public string Name => "Hexagon";
-
+        
         public Image Icon => throw new NotImplementedException();
 
         public string CreateGeometry()

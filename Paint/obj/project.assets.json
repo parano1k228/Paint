@@ -515,19 +515,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ndmt1at21\\.nuget\\packages\\": {}
+    "C:\\Users\\dravakol\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Paint\\Paint\\Paint\\Paint.csproj",
+      "projectUniqueName": "C:\\Users\\dravakol\\source\\repos\\Paint\\Paint\\Paint.csproj",
       "projectName": "Paint",
-      "projectPath": "D:\\C#\\Paint\\Paint\\Paint\\Paint.csproj",
-      "packagesPath": "C:\\Users\\ndmt1at21\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Paint\\Paint\\Paint\\obj\\",
+      "projectPath": "C:\\Users\\dravakol\\source\\repos\\Paint\\Paint\\Paint.csproj",
+      "packagesPath": "C:\\Users\\dravakol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dravakol\\source\\repos\\Paint\\Paint\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ndmt1at21\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dravakol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -541,11 +548,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\C#\\Paint\\Paint\\BRControl\\BRControl.csproj": {
-              "projectPath": "D:\\C#\\Paint\\Paint\\BRControl\\BRControl.csproj"
+            "C:\\Users\\dravakol\\source\\repos\\Paint\\BRControl\\BRControl.csproj": {
+              "projectPath": "C:\\Users\\dravakol\\source\\repos\\Paint\\BRControl\\BRControl.csproj"
             },
-            "D:\\C#\\Paint\\Paint\\PluginContract\\PluginContract.csproj": {
-              "projectPath": "D:\\C#\\Paint\\Paint\\PluginContract\\PluginContract.csproj"
+            "C:\\Users\\dravakol\\source\\repos\\Paint\\PluginContract\\PluginContract.csproj": {
+              "projectPath": "C:\\Users\\dravakol\\source\\repos\\Paint\\PluginContract\\PluginContract.csproj"
             }
           }
         }
@@ -591,24 +598,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.12, 5.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -617,7 +606,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   },

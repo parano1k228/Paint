@@ -8,6 +8,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Plugins\**" />
+	  <EmbeddedResource Remove="Plugins\**" />
+	  <None Remove="Plugins\**" />
+	  <Page Remove="Plugins\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="IconImg\Arrow.png" />
 	  <None Remove="IconImg\blackicon.png" />
 	  <None Remove="IconImg\boldicon.png" />
@@ -127,10 +134,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Plugins\" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<None Include="..\.editorconfig" Link=".editorconfig" />
 	</ItemGroup>
 
@@ -219,5 +222,17 @@
 	  <Resource Include="IconImg\zoomicon.png">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Plugins - Copy\Arrow\Release\net5.0-windows\ref\" />
+	  <Folder Include="Plugins - Copy\Circle\Release\net5.0-windows\ref\" />
+	  <Folder Include="Plugins - Copy\Diamond\Release\net5.0-windows\ref\" />
+	  <Folder Include="Plugins - Copy\Donut\Release\net5.0-windows\ref\" />
+	  <Folder Include="Plugins - Copy\Heart\Release\net5.0-windows\ref\" />
+	  <Folder Include="Plugins - Copy\Hexagon\Release\net5.0-windows\ref\" />
+	  <Folder Include="Plugins - Copy\Polygon\Release\net5.0-windows\ref\" />
+	  <Folder Include="Plugins - Copy\Star\Release\net5.0-windows\ref\" />
+	  <Folder Include="Plugins - Copy\Triagle\Release\net5.0-windows\ref\" />
 	</ItemGroup>
 </Project>
